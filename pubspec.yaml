@@ -1,0 +1,48 @@
+name: rafiq_al_muallim
+description: رفيق المعلم الموريتاني - تطبيق مساعد المعلمين
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State management
+  provider: ^6.1.2
+
+  # Networking
+  dio: ^5.4.3+1
+
+  # Routing
+  go_router: ^14.2.0
+
+  # Local session storage
+  flutter_secure_storage: ^9.2.2
+  shared_preferences: ^2.2.3
+
+  # Utilities
+  intl: ^0.20.2
+  google_fonts: ^6.2.1
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  # fonts:
+  #   - family: ThmanyahSans
+  #     fonts:
+  #       - asset: assets/fonts/thmanyah_sans_regular.otf
+  #       - asset: assets/fonts/thmanyah_sans_medium.otf
+  #         weight: 500
+  #       - asset: assets/fonts/thmanyah_sans_bold.otf
+  #         weight: 700
